@@ -18,10 +18,13 @@ const (
 
 var (
 	addr = flag.String("addr", "localhost:50051", "the address to connect to")
+
+	// go run main.go -name xuweiqiang
 	name = flag.String("name", defaultName, "Name to greet")
 )
 
 func main() {
+
 	flag.Parse()
 
 	// 设置与服务器的连接

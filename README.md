@@ -7,4 +7,4 @@ grpc
 
 [gRPC 官方文档中文版](http://doc.oschina.net/grpc?t=60133)
 
-
+[GO gRPC 官方文档](https://grpc.io/docs/languages/go/quickstart/)

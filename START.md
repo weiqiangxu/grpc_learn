@@ -30,3 +30,6 @@ protoc-gen-go-grpc --version
 --go-grpc_out=.会针对hello.proto文件里的service生成相关代码
 ```
 
+```
+go run main.go -name xuweiqiang
+```
