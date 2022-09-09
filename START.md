@@ -33,3 +33,8 @@ protoc-gen-go-grpc --version
 ```
 go run main.go -name xuweiqiang
 ```
+
+```
+# 生成目录与service同级别
+/home/dofun/protoc/bin/protoc --go_out=paths=source_relative:. --go-grpc_out=paths=source_relative:. ./service/logic.proto
+```
